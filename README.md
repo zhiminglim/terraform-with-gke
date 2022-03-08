@@ -16,7 +16,7 @@ variable "gke_num_nodes" {
 
 To develop this project, the terraform CLI is required and can be installed with various methods as shown [here](https://www.terraform.io/downloads).
 
-This project requires a `credentials.json` file which contains the service account to your GCP project.
+This project requires a `credentials.json` file which contains the service account secret to your GCP project.
 
 # WIP
 
