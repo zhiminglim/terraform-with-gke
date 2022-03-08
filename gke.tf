@@ -1,7 +1,7 @@
 # GKE cluster
 resource "google_container_cluster" "primary" {
   name     = "${var.project_id}-gke-tf"
-  location = var.zone
+  location = var.region
   # This creates initial_node_count nodes per zone the cluster has nodes in,
   # typically 1 zone if the cluster location is a zone, and 3 if it's a region.
   
